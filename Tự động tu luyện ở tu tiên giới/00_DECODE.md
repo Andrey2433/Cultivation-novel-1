@@ -100,9 +100,7 @@ Không giới hạn loại nội dung.
 Mỗi entry trong `01_WORLD_BUILD.md` và `02_STORY.md` chỉ có 4 trường thông tin:
 
 ```
-id:
-status:
-visibility:
+id:			status:			visibility:
 fact:
 ```
 
@@ -303,9 +301,7 @@ Khi cần xác định chính xác nhân vật nào biết thông tin, việc đ
 Ví dụ:
 
 ```
-id: ST-002-001
-status: canon
-visibility: character
+id: ST-002-001		status: canon		visibility: character
 fact: "Trần Minh biết Tà Thần đã xuất hiện tại Lạc Gia Thôn (WB-CHAR-003, WB-LOC-001)."
 ```
 
@@ -320,9 +316,7 @@ fact: "Trần Minh biết Tà Thần đã xuất hiện tại Lạc Gia Thôn (W
 Ví dụ:
 
 ```
-id: WB-SYS-010
-status: canon
-visibility: author
+id: WB-SYS-010		status: canon		visibility: author
 fact: "Hệ thống của Trần Minh có chức năng tự động luyện đan."
 ```
 
@@ -341,18 +335,14 @@ Khi một `fact` đề cập đến một thông tin đã tồn tại trong mộ
 Ví dụ:
 
 ```
-id: WB-SYS-001
-status: canon
-visibility: author
+id: WB-SYS-001		status: canon		visibility: author
 fact: "Hệ thống của Trần Minh có chức năng tự động luyện đan (WB-SYS-002)."
 ```
 
 Entry được tham chiếu:
 
 ```
-id: WB-SYS-002
-status: canon
-visibility: author
+id: WB-SYS-002		status: canon		visibility: author
 fact: "Chức năng tự động luyện đan cho phép hệ thống tự động thực hiện quá trình luyện đan khi điều kiện cần thiết được đáp ứng."
 ```
 
@@ -398,18 +388,14 @@ Không được tự suy đoán nội dung của ID nếu entry tương ứng ch
 Ví dụ:
 
 ```
-id: WB-CHAR-001
-status: canon
-visibility: author
+id: WB-CHAR-001		status: canon		visibility: author
 fact: "Trần Minh là nhân vật chính của câu chuyện và xuất hiện trong sự kiện ST-001-001."
 ```
 
 Và:
 
 ```
-id: ST-001-001
-status: canon
-visibility: reader
+id: ST-001-001		status: canon		visibility: reader
 fact: "Trần Minh bị đưa tới Lạc Gia Thôn (WB-LOC-001)."
 ```
 
@@ -523,9 +509,7 @@ Thứ tự này không có nghĩa AI được phép biến trạng thái thấp 
 Ví dụ:
 
 ```
-id: WB-CHAR-003
-status: canon
-visibility: author
+id: WB-CHAR-003		status: canon		visibility: author
 fact: "Tà Thần có quan hệ nhân quả với linh hồn nguyên bản của Trần Minh."
 ```
 
@@ -652,32 +636,24 @@ ID được tạo khi có entry mới và phải đảm bảo tính duy nhất.
 ## World Build
 
 ```
-id: WB-CHAR-001
-status: canon
-visibility: author
+id: WB-CHAR-001		status: canon		visibility: author
 fact: "Trần Minh có Mộc hệ đơn thuộc tính (WB-SYS-005)."
 ```
 
 ```
-id: WB-SYS-005
-status: canon
-visibility: author
+id: WB-SYS-005		status: canon		visibility: author
 fact: "Mộc hệ đơn thuộc tính là thiên phú tu luyện của Trần Minh."
 ```
 
 ## Story
 
 ```
-id: ST-001-001
-status: canon
-visibility: reader
+id: ST-001-001		status: canon		visibility: reader
 fact: "Trần Minh bị đưa tới Lạc Gia Thôn (WB-LOC-001) sau khi xảy ra nhiễu loạn thời không (ST-001-002)."
 ```
 
 ```
-id: ST-001-002
-status: canon
-visibility: author
+id: ST-001-002		status: canon		visibility: author
 fact: "Nhiễu loạn thời không khiến vị trí thực tế của Trần Minh lệch khỏi điểm đến dự kiến."
 ```
 
@@ -703,9 +679,7 @@ Khi tạo thông tin mới:
 Mẫu:
 
 ```
-id: XXX-XXX-XXX
-status: canon
-visibility: author
+id: XXX-XXX-XXX		status: canon		visibility: author
 fact: "..."
 ```
 
@@ -751,9 +725,7 @@ Các ID cũ vẫn có thể được giữ lại để truy nguyên dữ liệu 
 `WORLD_BUILD` và `STORY` chỉ cần:
 
 ```
-id
-status
-visibility
+id		status		visibility
 fact
 ```
 
